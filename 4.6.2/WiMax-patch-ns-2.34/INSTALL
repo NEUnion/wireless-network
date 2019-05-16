@@ -1,0 +1,9 @@
+How to integrate WiMax into ns-2.34
+
+1.Copy the patch file "WiMax.diff" into ns2 source tree. For instance:
+     cp /tmp/Wimax.diff /tmp/ns-allinone-2.34/
+2.Apply the patch "WiMax.diff". For instance:
+     cd ns-allinone-2.34
+     patch -p0 < WiMax.diff
+3.Re-install the ns2. For instance:
+     ./install

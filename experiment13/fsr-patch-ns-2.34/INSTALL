@@ -1,0 +1,9 @@
+How to integrate FSR into ns-2.34
+
+1.Copy the patch file "fsr.diff" into ns2 source tree. For instance:
+     cp /tmp/fsr.diff /tmp/ns-allinone-2.34/
+2.Apply the patch "fsr.diff". For instance:
+     cd ns-allinone-2.34
+     patch -p0 < fsr.diff
+3.Re-install the ns2. For instance:
+     ./install

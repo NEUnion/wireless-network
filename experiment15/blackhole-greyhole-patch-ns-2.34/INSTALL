@@ -1,0 +1,9 @@
+How to integrate BLACKHOLE and GREYHOLE attacks into ns-2.34
+
+1.Copy the patch file "blackhole-greyhole.diff" into ns2 source tree. For instance:
+     cp /tmp/blackhole-greyhole.diff /tmp/ns-allinone-2.34/
+2.Apply the patch "blackhole-greyhole.diff". For instance:
+     cd ns-allinone-2.34
+     patch -p0 < blackhole-greyhole.diff
+3.Re-install the ns2. For instance:
+     ./install
